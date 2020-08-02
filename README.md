@@ -1,44 +1,98 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="github-explorer" title="github-explorer" src="https://i.imgur.com/tgFNPCm.png" />
+</h1>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/pedroksty/github-explorer?color=%2304D361">
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/pedroksty/github-explorer">
 
-### `yarn start`
+  <a href="https://www.twitter.com/pedroksty/">
+    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fpedroksty%2Fnlw1">
+  </a>
+	
+  
+  <a href="https://github.com/pedroksty/github-explorer/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pedroksty/github-explorer">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/pedroksty/github-explorer/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/pedroksty/github-explorer?style=social">
+  </a>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 💻 Sobre o projeto
 
-### `yarn test`
+🔎 Github Explorer - é uma aplicação para pesquisar repositórios do github de maneira rápida.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎨 Layout
 
-### `yarn build`
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="github-explorer" title="github-explorer" src="https://i.imgur.com/tgFNPCm.png" width="400px">
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <img alt="github-explorer" title="github-explorer" src="https://i.imgur.com/CgPb7La.png" width="400px">
+</p>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🛠 Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `yarn eject`
+- [React][reactjs]
+- [TypeScript][typescript]
+- [Styled Components][styled-components]
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🚀 Como executar o projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pré-requisitos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs], [Yarn][yarn].
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 🧭 Rodando a aplicação
 
-## Learn More
+```bash
+# Clone este repositório
+$ git clone https://github.com/pedroksty/github-explorer.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd github-explorer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+
+## 😯 Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+
+## 📝 Licença
+
+Este projeto esta sobe a licença MIT.
+
+Feito com ❤️ por Pedro henrique 👋🏽 [Entre em contato!](https://www.linkedin.com/in/pedro-henrique-b9541a199/)
+
+[nodejs]: https://nodejs.org/
+[typescript]: https://www.typescriptlang.org/
+[styled-components]: https://styled-components.com/
+[expo]: https://expo.io/
+[reactjs]: https://reactjs.org
+[rn]: https://facebook.github.io/react-native/
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[license]: https://opensource.org/licenses/MIT
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[rs]: https://rocketseat.com.br
+[yarn]: https://yarnpkg.com/getting-started/install
