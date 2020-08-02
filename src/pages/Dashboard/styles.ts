@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { shade } from 'polished'
-import { FiChevronRight } from 'react-icons/fi'
 
 export const Container = styled.div``
 
@@ -78,7 +77,9 @@ export const Repositories = styled.div`
     }
 
     div {
-      margin-left: 16px;
+      margin: 0 16px;
+      flex: 1;
+      overflow: auto;
 
       strong {
         font-size: 20px;
